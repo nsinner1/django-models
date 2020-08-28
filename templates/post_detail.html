@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Blog Details</title>
+{% endblock title %}
+
+{% block header %}
+<header>
+    <h1>Details of the Blogs</h1>
+</header>
+{% endblock header %}
+
+{% block content %}
+    <h2> Title: {{ blog.title }}</h2>
+    <p> About: {{ blog.body }}</p>
+{% endblock content %}
+
+{% block footer %}
+<footer>
+    <h1>Website by Natalie Sinner</h1>
+</footer>
+{% endblock footer %}
